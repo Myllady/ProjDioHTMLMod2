@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(172, 153, 153);
+    padding: 10px 20px 0px;
+    color: rgb(94, 22, 22);
+    font-size: large;
+}
+.header {
+    background-color: rgb(243, 196, 184);
+    min-height: 10px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    color: rgb(208, 124, 153);
+}
+.footer {
+    background-color: rgb(244, 224, 220);
+    min-height: 150px;
+    text-align: center;
+    color: rgb(208, 124, 153);
+}
+
+
+.tabela { 
+border: solid; color: rgb(72, 47, 47);
+
+}
+
+
+table tbody tr:nth-child(even) td {
+    background-color: rgb(247, 245, 235);
+}
+
+
+table thead th {
+    background-color: rgb(109, 87, 87);
+    color: white;
+}
